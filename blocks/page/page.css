@@ -1,7 +1,11 @@
 .page {
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr);
+  justify-content: center;
   min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0 48px;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   background-color: #303236;
