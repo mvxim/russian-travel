@@ -1,5 +1,28 @@
 .cover__link {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}

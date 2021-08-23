@@ -1,3 +1,4 @@
 .page__header {
-  margin: 28px 0 56px;
+  grid-area: header;
+  margin-bottom: 56px;
 }

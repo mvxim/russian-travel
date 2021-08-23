@@ -1,3 +1,4 @@
 .intro {
-  max-width: 984px;
+  grid-area: intro;
+ max-width: 690px;
 }

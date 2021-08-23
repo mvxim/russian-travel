@@ -1,6 +1,6 @@
 .places {
+  grid-area: places;
   max-width: 984px;
-  display: grid;
-  grid-template-rows: min-content min-content;
-  row-gap: 80px;
+  display: flex;
+  flex-direction: column;
 }

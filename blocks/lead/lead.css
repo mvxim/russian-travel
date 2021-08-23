@@ -1,4 +1,5 @@
 .lead {
+  grid-area: lead;
   max-width: 984px;
   min-width: 320px;
   display: flex;

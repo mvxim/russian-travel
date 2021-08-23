@@ -3,4 +3,9 @@
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: repeat(2, min-content);
   grid-gap: 48px 40px;
+  margin-bottom: 80px;
+}
+
+.places__item:last-of-type {
+  margin-bottom: 0;
 }
