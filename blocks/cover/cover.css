@@ -1,6 +1,6 @@
 .cover {
   position: relative;
-  background-image: url(../../../images/cover/cover__background.jpg);
+  background-image: url(../../images/cover/cover__background.jpg);
   background-size: cover;
   background-position: center center;
   z-index: 0;
