@@ -5,7 +5,46 @@
     ". lead ."
     ". intro ."
     "photo-grid photo-grid photo-grid"
-    ". places ."
+    ". places ." 
     "cover cover cover";
+  row-gap: 92px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .main {
+    grid-template-columns: 48px 1fr 48px;
+    grid-template-areas: 
+      ". lead ." 
+      ". intro ." 
+      ". photo-grid ." 
+      ". places ." 
+      "cover cover cover";
     row-gap: 92px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main {
+    grid-template-columns: 24px 1fr 24px;
+    grid-template-areas: 
+      "lead lead lead" 
+      ". intro ." 
+      ". photo-grid ." 
+      ". places ." 
+      "cover cover cover";
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    grid-template-columns: 16px 1fr 16px;
+    grid-template-areas: 
+      "lead lead lead" 
+      ". intro ." 
+      ". photo-grid ." 
+      "places places places" 
+      "cover cover cover";
+    row-gap: 64px;
+  }
 }

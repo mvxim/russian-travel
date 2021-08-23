@@ -4,3 +4,9 @@
   font-weight: normal;
   text-align: right;
 }
+
+@media screen and (max-width: 767px){
+  .footer__copyright {
+    text-align: left;
+  }
+}

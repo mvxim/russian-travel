@@ -2,3 +2,21 @@
   grid-area: main;
   margin-bottom: 92px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .page__main {
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page__main {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__main {
+    margin-bottom: 64px;
+  }
+}

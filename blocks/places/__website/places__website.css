@@ -1,3 +1,9 @@
 .places__webstie {
-align-self: end;
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .places__webstie {
+    grid-area: website;
+  }
 }

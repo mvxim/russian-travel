@@ -1,3 +1,11 @@
 .places__figure {
   margin: 0;
+  font-size: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .places__figure {
+    grid-area: figure;
+  }
+
 }
