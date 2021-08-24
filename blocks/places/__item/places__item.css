@@ -10,7 +10,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .places__item {
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
@@ -18,7 +18,7 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .places__item {
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
@@ -26,24 +26,9 @@
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .places__item {
     grid-template-columns: 16px minmax(288px, 1fr) 16px;
-    row-gap: 32px;
-    column-gap: 0;
-
-    grid-template-areas: 
-      ". title ."
-      ". website ."
-      "figure figure figure"
-      ". text .";
-  }
-
-}
-
-@media screen and (max-width: 319px) {
-  .places__item {
-    grid-template-columns: 1px minmax(288px, 1fr) 1px;
     row-gap: 32px;
     column-gap: 0;
 
