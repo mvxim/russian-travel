@@ -5,9 +5,7 @@
 
 @media screen and (max-width: 767px){
   .footer {
-    display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
     row-gap: 48px;
   }
 }

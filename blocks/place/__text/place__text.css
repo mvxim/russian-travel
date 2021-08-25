@@ -1,5 +1,5 @@
 @media screen and (max-width: 767px) {
-  .places__text {
+  .place__text {
     grid-area: text;
   }
 

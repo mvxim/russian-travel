@@ -1,9 +1,15 @@
 .cover {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  justify-items: center;
+  row-gap: 32px;
   position: relative;
   background-image: url(../../images/cover/cover__background.jpg);
   background-size: cover;
   background-position: center center;
   z-index: 0;
+  min-height: 740px;
 }
 
 .cover::after {
@@ -23,3 +29,21 @@
   opacity: .8;
 }
 
+@media screen and (max-width: 1279px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    min-height: 200px;
+    row-gap: 16px;
+  }
+}
